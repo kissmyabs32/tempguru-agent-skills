@@ -1,7 +1,7 @@
 {
   "name": "tempguru-event-staffing",
   "version": "1.2.0",
-  "description": "W-2 event staffing data for AI agents: city coverage, roles, all-inclusive rate ranges, lead times, and state compliance for 300+ US/CA markets. Five read-only lookups plus an opt-in request_quote submission, no auth.",
+  "description": "W-2 event staffing data for AI agents: city coverage, roles, all-inclusive rate ranges, lead times, and state compliance for 345 US/CA markets. Seven read-only lookups plus an opt-in request_quote submission, no auth.",
   "mcpServers": {
     "tempguru": {
       "httpUrl": "https://mcp.tempguru.co/mcp"

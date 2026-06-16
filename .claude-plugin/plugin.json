@@ -1,6 +1,6 @@
 {
   "name": "tempguru-event-staffing",
-  "description": "W-2 event staffing data for AI agents: 300+ US/CA markets, roles, rates, lead times, compliance. Five read-only lookups plus an opt-in request_quote submission.",
+  "description": "W-2 event staffing data for AI agents: 345 US/CA markets, roles, rates, lead times, compliance. Seven read-only lookups plus an opt-in request_quote submission.",
   "version": "1.2.0",
   "author": {
     "name": "TempGuru (Temporary Assistance Guru, Inc.)",
