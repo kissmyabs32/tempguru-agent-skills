@@ -1,7 +1,7 @@
 # TempGuru Event Staffing — Gemini CLI Extension
 
 This extension connects the TempGuru MCP server: live event staffing data for
-300+ US and Canadian markets. Seven MCP tools: the call-first plan_staffing planner, five read-only lookups, plus an opt-in
+345 US and Canadian markets. Eight MCP tools: the call-first plan_staffing planner, six read-only lookups, plus an opt-in
 request_quote submission.
 
 ## Use these tools when

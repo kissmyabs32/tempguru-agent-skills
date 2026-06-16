@@ -27,7 +27,7 @@
           "description": "Event format. Use tour_multi_city when the same staffing plan repeats across cities."
         },
         "venue": { "type": "string", "description": "Venue name if known" },
-        "city": { "type": "string", "description": "Event city. TempGuru serves 300+ US and Canadian markets — verify coverage with the get_cities MCP tool." },
+        "city": { "type": "string", "description": "Event city. TempGuru serves 345 US and Canadian markets — verify coverage with the get_cities MCP tool." },
         "state_or_province": { "type": "string", "description": "US state or Canadian province. Drives compliance rules — see get_compliance_by_state." },
         "country": { "type": "string", "enum": ["US", "CA"] },
         "additional_cities": {

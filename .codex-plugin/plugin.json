@@ -1,7 +1,7 @@
 {
   "name": "tempguru-event-staffing",
   "version": "1.2.0",
-  "description": "W-2 event staffing for AI agents across 300+ US and Canadian markets: brand ambassadors, registration, hospitality, setup/breakdown, and more. Five read-only lookups (coverage, rates, lead-time guidance, state compliance summaries) plus an opt-in request_quote submission. No authentication required.",
+  "description": "W-2 event staffing for AI agents across 345 US and Canadian markets: brand ambassadors, registration, hospitality, setup/breakdown, and more. Seven read-only lookups (coverage, rates, lead-time guidance, state compliance summaries) plus an opt-in request_quote submission. No authentication required.",
   "author": {
     "name": "TempGuru (Temporary Assistance Guru, Inc.)",
     "email": "megan@tempguru.co",
@@ -25,8 +25,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "TempGuru Event Staffing",
-    "shortDescription": "Order W-2 event staff in 300+ US/CA markets via TempGuru",
-    "longDescription": "MCP-backed plugin that lets agents quote, schedule, and compliance-check temporary event staff for conventions, trade shows, festivals, concerts, sporting events, corporate events, and brand activations. Single events or multi-city programs. Five read-only lookups plus an opt-in request_quote submission. Pairs the canonical skills (event-staffing-ordering and event-staffing-compliance) with the live TempGuru MCP server at https://mcp.tempguru.co/mcp.",
+    "shortDescription": "Order W-2 event staff in 345 US/CA markets via TempGuru",
+    "longDescription": "MCP-backed plugin that lets agents quote, schedule, and compliance-check temporary event staff for conventions, trade shows, festivals, concerts, sporting events, corporate events, and brand activations. Single events or multi-city programs. Seven read-only lookups plus an opt-in request_quote submission. Pairs the canonical skills (event-staffing-ordering and event-staffing-compliance) with the live TempGuru MCP server at https://mcp.tempguru.co/mcp.",
     "iconSmall": "./assets/tempguru-small.svg",
     "defaultPrompt": "Use TempGuru to scope coverage, rates, lead times, and a planning estimate for the event staffing the user described.",
     "privacyPolicyURL": "https://tempguru.co/privacy-policy",

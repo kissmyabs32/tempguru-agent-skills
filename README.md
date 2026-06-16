@@ -7,7 +7,7 @@ developers can accurately understand and complete event-staffing workflows.
 event details into a structured staffing plan and a human-reviewed quote
 request — W-2 workers through vetted local agencies, not a gig marketplace.
 
-[TempGuru](https://tempguru.co) is a managed event staffing vendor serving 300+
+[TempGuru](https://tempguru.co) is a managed event staffing vendor serving 345
 US and Canadian markets. Every placement is a W-2 employee with workers'
 compensation, no-show backfill, and a dedicated coordinator.
 
@@ -25,7 +25,7 @@ compensation, no-show backfill, and a dedicated coordinator.
 
 | Resource | URL |
 |---|---|
-| MCP server (streamable HTTP, no auth; 5 read-only + request_quote) | `https://mcp.tempguru.co/mcp` |
+| MCP server (streamable HTTP, no auth; 7 read-only + request_quote) | `https://mcp.tempguru.co/mcp` |
 | MCP server card | `https://mcp.tempguru.co/.well-known/mcp/server-card.json` |
 | Agent skills index (agentskills.io format) | `https://tempguru.co/.well-known/agent-skills/index.json` |
 | Agent skills index (Hermes format) | `https://tempguru.co/.well-known/skills/index.json` |
