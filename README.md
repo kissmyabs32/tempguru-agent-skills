@@ -1,5 +1,6 @@
 # TempGuru Agent Skills
 
+[![SafeSkill 50/100](https://img.shields.io/badge/SafeSkill-50%2F100_Use%20with%20Caution-orange)](https://safeskill.dev/scan/kissmyabs32-tempguru-agent-skills)
 Open agent-facing documentation, schemas, and MCP tools so AI systems and agent
 developers can accurately understand and complete event-staffing workflows.
 
