@@ -15,7 +15,7 @@ Request: `role=brand-ambassadors, city=boston`
   "tier": "hub",
   "role": "Brand Ambassadors",
   "rate_range": { "min": 56, "max": 65, "currency": "USD", "unit": "hour" },
-  "rate_includes": "W-2 wages, payroll taxes (FICA/FUTA/SUTA), workers' compensation, coordinator support"
+  "rate_includes": "W-2 wages, payroll taxes (FICA/FUTA/SUTA), workers' compensation, TempGuru coordination"
 }
 ```
 

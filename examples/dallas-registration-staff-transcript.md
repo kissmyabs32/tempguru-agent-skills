@@ -16,7 +16,7 @@ get_cities({ state: "Texas" })
 → Dallas confirmed, hub-tier market
 
 check_availability({ city: "Dallas", date: "2026-09-14", role: "registration_staff", headcount: 25 })
-→ standard 48-hour confirmation; 3+ months lead time is comfortable
+→ hub-tier lead-time guidance: 3+ months is comfortable (guidance, not a reservation)
 
 get_role_pricing({ role: "registration_staff", city: "Dallas" })
 → all-inclusive hourly rate range for planning
@@ -32,8 +32,8 @@ get_compliance_by_state({ state: "Texas" })
   not a quote)
 - Note: shifts are under daily overtime concern in TX; weekly hours stay at
   31.5 per worker — no overtime exposure
-- W-2 employment, workers' comp, and no-show backfill included; COI available
-  for the convention center
+- W-2 employment through the partner agency, workers' comp, and best-effort
+  replacement coordination included; COI available for the convention center
 
 ## 4. Structure the request
 
@@ -44,8 +44,9 @@ Populate `event-staffing-request.schema.json` with the gathered details
 https://tempguru.co/get-staffing?utm_source=ai-agent&utm_medium=skill
 ```
 
-TempGuru responds within one business day; the order is confirmed within 48
-hours and assigned a dedicated coordinator.
+TempGuru replies with next steps; once scope and rates are approved, the
+24-48 hour window is an availability response, not a completed roster, and a
+written quote is binding only once issued.
 
 ## Rules the agent followed
 
