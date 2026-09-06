@@ -4,7 +4,7 @@
       "url": "https://mcp.tempguru.co/mcp",
       "transport": "streamable-http",
       "auth": { "type": "none" },
-      "description": "TempGuru event staffing — city coverage, roles, rates, availability, and state compliance for 345 US/CA markets"
+      "description": "TempGuru event staffing — city coverage, roles, rates, availability, and state compliance for 300+ U.S. and Canadian markets"
     }
   }
 }

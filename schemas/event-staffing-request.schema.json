@@ -27,7 +27,7 @@
           "description": "Event format. Use tour_multi_city when the same staffing plan repeats across cities."
         },
         "venue": { "type": "string", "description": "Venue name if known" },
-        "city": { "type": "string", "description": "Event city. TempGuru serves 345 US and Canadian markets — verify coverage with the get_cities MCP tool." },
+        "city": { "type": "string", "description": "Event city. TempGuru supports 300+ U.S. and Canadian markets; match the city with the get_cities MCP tool (a match does not confirm order coverage)." },
         "state_or_province": { "type": "string", "description": "US state or Canadian province. Drives compliance rules — see get_compliance_by_state." },
         "country": { "type": "string", "enum": ["US", "CA"] },
         "additional_cities": {
@@ -90,7 +90,7 @@
       "type": "object",
       "properties": {
         "currency": { "type": "string", "enum": ["USD", "CAD"], "default": "USD" },
-        "notes": { "type": "string", "description": "Budget constraints or targets. Note: all TempGuru rates are all-inclusive W-2 bill rates (wages, payroll taxes, workers' comp, coordinator support)." }
+        "notes": { "type": "string", "description": "Budget constraints or targets. Note: all TempGuru rates are all-inclusive W-2 bill rates (wages, payroll taxes, workers' comp, TempGuru coordination)." }
       }
     },
     "notes": { "type": "string", "description": "Anything else the staffing coordinator should know" },
